@@ -4,6 +4,10 @@ the other files are different boolean functions with different sizes that you ca
 
 
 description:
-1)	the algorithm divides the Boolean function into smaller pieces until termination conditions are met.
+1)	If the Boolean function (or cube list) isn’t unate , then the algorithm divides it into smaller pieces until it becomes unate, and then use the termination rules .
 2)	The Boolean functions are represented in cube list representation
 3)	Unate Boolean function means that each var appears in one polarity only.
+4)	termination conditions are:
+      don’t care term appear the cube list
+      one of Boolean algebra rules is met
+
